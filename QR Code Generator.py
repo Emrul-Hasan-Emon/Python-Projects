@@ -16,6 +16,5 @@ data = "Emrul Hasan Emon"
 qr.add_data(data)
 qr.make(fit=True)
 qr_image = qr.make_image(fill="black", black_color="white")
-qr_image.save("test.png")
+qr_image.save("test.png") # An image will be saved inside the project file and if you scan that QR image you will find "Emrul Hasan Emon"
 
-print("Emrul")
